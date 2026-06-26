@@ -4,7 +4,7 @@ import reliableMessageQueue.models.*;
 import java.util.*;
 import java.time.*;
 
-class MessageRepository(){
+public class MessageRepository(){
     private HashMap<Integer,Message> messageRepository;
 
     public MessageRepository(){
